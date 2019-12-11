@@ -12,7 +12,7 @@
             <div class="w-1/6 pt-5"><h6>PHP</h6></div>
             <div class="w-1/6 pt-5"><h6>Python</h6></div>
             <div class="w-1/6 pt-5"><h6>VueJS</h6></div>
-            <div class="w-1/6 pt-5"><h6>Bootstrap Framework</h6></div>
+            <div class="w-1/6 pt-5"><h6>Bootstrap</h6></div>
             <div class="w-1/6 pt-5"><h6>TailwindCSS</h6></div>
         </div>
     </div>
