@@ -33303,16 +33303,29 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "button",
-    {
-      staticClass:
-        "pageHeader hover:bg-blue-600 focus:outline-none transition-fast m-0"
-    },
-    [_vm._v("Download Resume")]
-  )
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      { attrs: { href: "/files/TotiCuervoResume.pdf", target: "_blank" } },
+      [
+        _c(
+          "button",
+          {
+            staticClass:
+              "pageHeader hover:bg-blue-600 focus:outline-none transition-fast m-0"
+          },
+          [_vm._v("Download Resume")]
+        )
+      ]
+    )
+  }
+]
 render._withStripped = true
 
 
@@ -34342,7 +34355,7 @@ var staticRenderFns = [
         _c("div", { staticClass: "w-1/6 pt-5" }, [_c("h6", [_vm._v("VueJS")])]),
         _vm._v(" "),
         _c("div", { staticClass: "w-1/6 pt-5" }, [
-          _c("h6", [_vm._v("Bootstrap Framework")])
+          _c("h6", [_vm._v("Bootstrap")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "w-1/6 pt-5" }, [
