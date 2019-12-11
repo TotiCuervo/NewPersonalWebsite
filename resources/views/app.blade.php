@@ -13,7 +13,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Roboto&display=swap" rel="stylesheet">
 
-    {{--Style--}}
+    {{--Styls--}}
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <script src="{{ asset('js/app.js') }}" defer></script>
